@@ -41,8 +41,57 @@ var waypoints = $('.holder').waypoint({
 handler: function(direction)
 
 {
-    console.log(this.element.id + direction)
-  }
+
+$.Velocity.RegisterUI("appear", {
+defaultDuration: 100,
+calls: [
+[ { scale: 1, opacity: 1},1, 
+{easing: "easeInSine", delay:0, sequenceQueue: false} ],
+]
+});
+
+$.Velocity.RegisterUI("dissappear", {
+defaultDuration: 100,
+calls: [
+[ { scale: 0,  opacity: 0},1, 
+{easing: "easeInSine", delay:0, sequenceQueue: false} ],
+]
+});
+
+let $it = $(this)
+      console.log($it)
+    if (direction === 'down'){
+    // console.log(this.element.id + "down")
+      // velcoity animation to reveal
+
+      
+
+
+
+      $(this.element).velocity({
+
+      	p: 'appear',
+      	o:{duration: 500}
+      })
+
+
+    }
+
+    else {
+    console.log(this.element.id + "up")
+    $(this.element).velocity({
+
+      	p: 'dissappear',
+      	o:{duration: 500}
+      })
+
+
+    }
+
+
+    
+  },
+    offset: '65%'
 })
 
 
