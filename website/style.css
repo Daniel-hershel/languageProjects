@@ -1,4 +1,14 @@
 body {
 
-	background-color: #444;
+background-color: #444;
+font-size: 5ch;
+}
+
+.holder{
+
+border: 2px solid #f4f4f4;
+}
+
+.title {
+font-size: 150%;
 }

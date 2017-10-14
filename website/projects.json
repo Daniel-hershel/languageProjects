@@ -1,0 +1,18 @@
+{
+	"projects": [{
+			"title": "this is the title",
+			"description": "this is the description",
+			"link": "<iframe height='501' scrolling='no' title='The way the waves move-poetry with sin and velocity.js-act-ii-development' src='//codepen.io/Daniel_Silber-Baker/embed/eGRPvz/?height=501&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>"
+		},
+
+		{
+			"title": "title too",
+			"description": "description two",
+			"link": "<iframe height='300' scrolling='no' title='Everything We Are-Morphing Poem' src='//codepen.io/Daniel_Silber-Baker/embed/oeGbWM/?height=300&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>"
+		}
+
+
+
+	]
+
+}
