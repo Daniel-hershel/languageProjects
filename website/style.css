@@ -1,14 +1,62 @@
 body {
 
-background-color: #444;
-font-size: 5ch;
+background-color: #fffff8;
+font-size: 3ch;
+font-family: "oswald"
 }
 
 .holder{
+display: grid;
+height: 55vh;
+width: 90vw;
+margin:5vw;
+grid-template-columns:
+[left-start] 25vw
+[right-start] 60vw;
 
-border: 2px solid #f4f4f4;
+grid-template-rows: 
+   [row1-start] 5vh
+    [row2-start] 30vh
+    [row3-start] 5vh;
+
+grid-gap: 1.5em;
+border: .2em solid #444;
 }
 
 .title {
 font-size: 150%;
+grid-column: left-start/span 2;
+grid-row: row1-start/row1-start;
+border: 2px solid #00A3E8;
+
+}
+
+.description{
+font-weight: 200;
+font-size: 80%;
+grid-column: left-start/span 1;
+grid-row: row2-start/row3-start;
+border: 2px solid #f4f4f4;
+
+
+}
+
+
+.instruction{
+grid-row: 5/6;
+grid-column: 1/12;
+font-size: 90%;
+background-color: #B90504;
+grid-column: left-start/span 1;
+grid-row: row3-start/span 2;
+border: 2px solid #f4f4f4;
+
+
+}
+
+
+.media{
+grid-column: right-start/span 1;
+grid-row: row2-start/span 2;
+background-color: #fcfcfc;
 }

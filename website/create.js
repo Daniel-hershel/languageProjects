@@ -1,6 +1,6 @@
 
 /*function to create text elements and any class*/
-function createStuff (thing, thingClass, holder) {
+function createWords (thing, thingClass, holder) {
 // create a new element
 var newDiv = document.createElement("div");
 //create a text node from the parameter passed to the function
@@ -16,3 +16,15 @@ $holder = $(holder);
 //append the newly created div to its holder
 $holder.append(newDiv);
 };
+
+function createMedia (thing, thingClass, holder){
+
+var newDiv = document.createElement("div");
+newDiv.className += thingClass
+
+var content = $(thing).appendTo(newDiv)
+$holder.append(newDiv);
+
+
+
+}
