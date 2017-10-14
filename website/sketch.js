@@ -1,3 +1,4 @@
+$(document).ready(function() {
 $.getJSON( "projects.json", function( json ) {
   // console.log(json.projects[1]);
 
@@ -26,9 +27,36 @@ json.projects.forEach(function(element){
 	createMedia(element.link, "media", holder)
 
 
+
 })
 
 
 
+//implement wayholder 
+//implement solution from audre lorde scroller
+	// make previous content fade out and new content fade in
+
+	console.log($('.holder'))
+var waypoints = $('.holder').waypoint({
+handler: function(direction)
+
+{
+    console.log(this.element.id + direction)
+  }
+})
+
 
  });
+
+
+// var waypoints = $('.title').waypoint({
+// handler: function(direction)
+// {
+// 	console.log(direction)
+
+// },
+// offset: '60%'
+// })
+
+
+})
