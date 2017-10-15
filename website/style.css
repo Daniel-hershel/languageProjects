@@ -35,12 +35,12 @@ grid-template-columns:
 [right-start] 10vw;
 
 grid-template-rows: 
-   [row1-start] 20vh
-    [row2-start] 5vh
+   [row1-start] 15vh
+    [row2-start] 10vh
     [row3-start] 50vh;
 opacity: 0;
-margin-bottom: 10vh;
-// grid-gap: 2.5em;
+margin-bottom: 15vh;
+grid-gap: 1.5em;
 // border: .2em solid #444;
 }
 
@@ -58,9 +58,6 @@ grid-row: row1-start/span 1;
 // border: 2px solid #f4f4f4;
 // color: #fcfcfc;
 color: #550000;
-
-
-
 }
 
 .description{
@@ -71,22 +68,15 @@ grid-row: row1-start/span 1 ;
 // width: 60%;
 // border: 2px solid #f4f4f4;
 color: #FFAAAA;
-// padding: 1ch;
-// text-shadow: 1px 0px #D46A6A;
-
-
+letter-spacing: .1em;
+line-height: 1.1em;
 
 
 }
 
 
 .instruction{
-// grid-row: 5/6;
-// grid-column: 1/12;
 font-size:80%;
-// width: 80%;
-// margin: auto;
-// background-color: #f4f4f4;
 grid-column: left-start/span 2;
 grid-row: row2-start/span 1;
 // border: 2px solid #f4f4f4;
@@ -96,7 +86,13 @@ color: #FFAAAA;
 background-color: #550000;
 font-weight: 200;
 text-align: center;
+letter-spacing: .3em;
+line-height: 1.1em;
+
 text-transform: uppercase;
+height: 60%;
+padding: .51em;
+// margin: .5em;
 // text-shadow: 0em .1em #550000;
 // margin: .5ch;
 
