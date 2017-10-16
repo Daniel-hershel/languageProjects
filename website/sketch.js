@@ -31,19 +31,24 @@ json.projects.forEach(function(element){
 })
 
 
-
+$('.holder').velocity({
+p: {scale: .1},
+o:{easing: "easeInSine"}
+})
 //implement wayholder 
 //implement solution from audre lorde scroller
 	// make previous content fade out and new content fade in
 
 	console.log($('.holder'))
+
+
 var waypoints = $('.holder').waypoint({
 handler: function(direction)
 
 {
 
 $.Velocity.RegisterUI("appear", {
-defaultDuration: 100,
+defaultDuration: 500,
 calls: [
 [ { scale: 1, opacity: 1},1, 
 {easing: "easeInSine", delay:0, sequenceQueue: false} ],

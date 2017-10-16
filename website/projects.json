@@ -3,7 +3,7 @@
 			"title": "WE ALL DESERVE A SAFE SPACE TO BECOME OURSELVES",
 			"description": "An experiment in programming language; expressive, demonstrative language. A fluid language that takes shape and makes meaning. This is a poem I wrote with the help of chroma.js for color and velocity.js for motion.",
 			"instruction": "Press the boxes to start poem",
-			"link": "<iframe height='400' scrolling='no' title='Everything We Are-Morphing Poem' src='//codepen.io/Daniel_Silber-Baker/embed/oeGbWM/?height=300&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
+			"link": "<iframe height='100%' scrolling='no' title='Everything We Are-Morphing Poem' src='//codepen.io/Daniel_Silber-Baker/embed/oeGbWM/?height=300&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
 			"documentation": ""
 
 		},
@@ -19,7 +19,7 @@
 			"title": "IMAGINING THE SHADOW CAST BY OUR WORDS",
 			"description": "Playing with movement and meaning. Radiating colors and their corresponding constellation of feeling. Using chroma.js and velocity.js to do most of the heavy lifting.",
 			"instruction": "Press buttons above wonderland to change color theme",
-			"link": "<iframe height='464' scrolling='no' title='programming language wonderland' src='//codepen.io/Daniel_Silber-Baker/embed/jLJLqK/?height=464&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/Daniel_Silber-Baker/pen/jLJLqK/'>programming language wonderland</a> by Daniel Silber-Baker (<a href='https://codepen.io/Daniel_Silber-Baker'>@Daniel_Silber-Baker</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe> ",
+			"link": "<iframe height='100%' scrolling='no' title='programming language wonderland' src='//codepen.io/Daniel_Silber-Baker/embed/jLJLqK/?height=464&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/Daniel_Silber-Baker/pen/jLJLqK/'>programming language wonderland</a> by Daniel Silber-Baker (<a href='https://codepen.io/Daniel_Silber-Baker'>@Daniel_Silber-Baker</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe> ",
 			"documentation": ""
 
 		},
@@ -28,7 +28,7 @@
 			"title": "Transformative Language",
 			"description": "Velocity.js and Particles .js to create an interactive environment in honor of the goddess Octavia Butler.",
 			"instruction": "Hover and press on letters and particles to interact.",
-			"link": "<iframe height='453' scrolling='no' title='thesis_transformativeLanguage_youChange' src='//codepen.io/Daniel_Silber-Baker/embed/wJVbpJ/?height=603&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/Daniel_Silber-Baker/pen/wJVbpJ/'>thesis_transformativeLanguage_youChange</a> by Daniel Silber-Baker (<a href='https://codepen.io/Daniel_Silber-Baker'>@Daniel_Silber-Baker</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe> ",
+			"link": "<iframe height='100%' scrolling='no' title='thesis_transformativeLanguage_youChange' src='//codepen.io/Daniel_Silber-Baker/embed/wJVbpJ/?height=603&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/Daniel_Silber-Baker/pen/wJVbpJ/'>thesis_transformativeLanguage_youChange</a> by Daniel Silber-Baker (<a href='https://codepen.io/Daniel_Silber-Baker'>@Daniel_Silber-Baker</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe> ",
 			"documentation": ""
 
 		},

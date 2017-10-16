@@ -39,7 +39,8 @@ grid-template-rows:
     [row2-start] 10vh
     [row3-start] 50vh;
 opacity: 0;
-margin-bottom: 15vh;
+scale: .1;
+margin-bottom: 20vh;
 grid-gap: 1.5em;
 // border: .2em solid #444;
 }
@@ -90,14 +91,21 @@ letter-spacing: .3em;
 line-height: 1.1em;
 
 text-transform: uppercase;
-height: 60%;
-padding: .51em;
+// height: 70%;
+  box-sizing: border-box;
+    // padding: 10px;
+padding: 1.5em;
 // margin: .5em;
 // text-shadow: 0em .1em #550000;
 // margin: .5ch;
 
 
 
+}
+
+.instruction * {
+
+	padding: 12.5em;
 }
 
 
