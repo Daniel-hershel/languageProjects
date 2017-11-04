@@ -10,7 +10,21 @@ color: #AA3939 ;
 #intro{
 
 	// border: 2px solid #444;
-	height: 60vh;
+	height: 20vh;
+	width: 80vw;
+	margin: auto;
+	color: #f4f4f4;
+	font-size: 200%;
+	text-transform: uppercase;
+	padding: 5vw;
+	margin-bottom: 40vh;
+}
+
+
+#gridIntro{
+
+	// border: 2px solid #444;
+	height: 20vh;
 	width: 80vw;
 	margin: auto;
 	color: #f4f4f4;
@@ -18,12 +32,35 @@ color: #AA3939 ;
 	text-transform: uppercase;
 	padding: 1ch;
 }
-
 #start{
 
 	margin-top:  3ch;
 }
 
+#miniHolder{
+// height: 40vh;
+display: grid;
+height: 85vh;
+width: 90vw;
+margin:5vw;
+grid-template-columns:
+[left-start] 25vw
+[middle-start] 25vw
+[right-start] 25vw;
+
+grid-template-rows: 
+   [row1-start] 15vh
+    [row2-start] 15vh
+    [row3-start] 15vh;
+grid-gap: 2.9em;
+margin-bottom: 10vh;
+}
+
+.miniHolder{
+	// margin: 0;
+	// width: 10vw;
+	float: left;
+}
 .holder{
 display: grid;
 height: 80vh;

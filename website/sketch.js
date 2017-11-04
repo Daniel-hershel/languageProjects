@@ -31,6 +31,40 @@ json.projects.forEach(function(element){
 })
 
 
+json.projects.forEach(function(element){
+  // console.log(element.title)
+
+
+  //create a div to hold each project
+  var miniHolder = document.createElement('div');
+  miniHolder.className += "miniHolder"
+  $('#miniHolder').append(miniHolder)
+
+  // creat a title div from element.title
+  createWords(element.title, "title", miniHolder)
+
+  // create a description div from element.description
+  createWords(element.description, "description", miniHolder)
+
+  //create instructions element from element.instruction
+  createWords(element.instruction, "instruction", miniHolder)
+
+
+
+  // create a div from element.link
+  createMedia(element.link, "media", miniHolder)
+
+
+
+})
+
+$('.miniHolder').velocity({
+p: {scale: .5,
+margin: "-=3em"
+},
+o:{easing: "easeInSine"}
+})
+
 $('.holder').velocity({
 p: {scale: .1},
 o:{easing: "easeInSine"}

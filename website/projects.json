@@ -1,5 +1,15 @@
 {
-	"projects": [{
+	"projects": [
+
+{
+			"title": "Phasing Elements",
+			"description": "An interactive environment to explore elements moving through space in patterened cycles",
+			"instruction": "select an animation when you're ready to begin",
+			"link": "<iframe height='140%' scrolling='no' title='Everything We Are-Morphing Poem' src='https://codepen.io/Daniel_Silber-Baker/project/live/ZyyQOB/' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
+			"documentation": ""
+
+		},
+		{
 			"title": "WE ALL DESERVE A SAFE SPACE TO BECOME OURSELVES",
 			"description": "An experiment in programming language; expressive, demonstrative language. A fluid language that takes shape and makes meaning. This is a poem I wrote with the help of chroma.js for color and velocity.js for motion.",
 			"instruction": "Press the boxes to start poem",
