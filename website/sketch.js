@@ -31,6 +31,20 @@ json.projects.forEach(function(element){
 })
 
 
+/* True Simulacrum */
+// make exact copy and then scale:deep full clone
+// $('.holder').clone().removeClass('holder').addClass('simulacrum').appendTo('#simGrid')
+
+// $('.simulacrum').velocity({
+// p: {scale: .5},
+// o:{easing: "easeInSine"}
+// })
+
+
+
+/* Mutated Simulacrum */
+
+// Option 2: iterate through json a second time and create variation of original thing
 json.projects.forEach(function(element){
   // console.log(element.title)
 
@@ -38,7 +52,7 @@ json.projects.forEach(function(element){
   //create a div to hold each project
   var miniHolder = document.createElement('div');
   miniHolder.className += "miniHolder"
-  $('#miniHolder').append(miniHolder)
+  $('#simGrid').append(miniHolder)
 
   // creat a title div from element.title
   createWords(element.title, "title", miniHolder)
@@ -47,7 +61,7 @@ json.projects.forEach(function(element){
   createWords(element.description, "description", miniHolder)
 
   //create instructions element from element.instruction
-  createWords(element.instruction, "instruction", miniHolder)
+  // createWords(element.instruction, "instruction", miniHolder)
 
 
 
@@ -59,7 +73,7 @@ json.projects.forEach(function(element){
 })
 
 $('.miniHolder').velocity({
-p: {scale: .5,
+p: {scale: .65,
 margin: "-=3em"
 },
 o:{easing: "easeInSine"}

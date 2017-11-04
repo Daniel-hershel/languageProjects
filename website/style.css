@@ -17,7 +17,7 @@ color: #AA3939 ;
 	font-size: 200%;
 	text-transform: uppercase;
 	padding: 5vw;
-	margin-bottom: 40vh;
+	// margin-bottom: 40vh;
 }
 
 
@@ -37,30 +37,27 @@ color: #AA3939 ;
 	margin-top:  3ch;
 }
 
-#miniHolder{
-// height: 40vh;
-display: grid;
-height: 85vh;
-width: 90vw;
-margin:5vw;
-grid-template-columns:
-[left-start] 25vw
-[middle-start] 25vw
-[right-start] 25vw;
+// #miniHolder{
+// // height: 40vh;
+// border: .2em solid #444;
 
-grid-template-rows: 
-   [row1-start] 15vh
-    [row2-start] 15vh
-    [row3-start] 15vh;
-grid-gap: 2.9em;
-margin-bottom: 10vh;
-}
+// display: grid;
+// height: 75vh;
+// width: 90vw;
+// margin:5vw;
+// grid-template-columns:
+// [left-start] 25vw
+// [middle-start] 25vw
+// [right-start] 25vw;
 
-.miniHolder{
-	// margin: 0;
-	// width: 10vw;
-	float: left;
-}
+// grid-template-rows: 
+//    [row1-start] 25vh
+//     [row2-start] 25vh
+//     [row3-start] 25vh;
+// grid-gap: 2.9em;
+// margin-bottom: 10vh;
+// }
+
 .holder{
 display: grid;
 height: 80vh;
@@ -81,6 +78,38 @@ margin-bottom: 20vh;
 grid-gap: 1.5em;
 // border: .2em solid #444;
 }
+
+#simGrid{
+
+	display: grid;
+height: 75vh;
+width: 90vw;
+margin:5vw;
+grid-template-columns:
+[left-start] 30vw
+[middle-start] 30vw
+[right-start] 30vw;
+
+grid-template-rows: 
+   [row1-start] 20vh
+    [row2-start] 20vh
+    [row3-start] 20vh;
+// scale: .1;
+margin-bottom: 10vh;
+grid-gap: 3.5em;
+// border: .2em solid #444;
+}
+
+.miniHolder{
+	// margin: 0;
+	// width: 10vw;
+	background-color: rgba(252, 252, 252, .2);
+	float: left;
+}
+
+
+// .simulacrum{
+// }
 
 // .color-primary-0 { color: #AA3939 }	/* Main Primary color */
 // .color-primary-1 { color: #FFAAAA }
