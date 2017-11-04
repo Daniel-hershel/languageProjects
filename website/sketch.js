@@ -58,7 +58,7 @@ json.projects.forEach(function(element){
   createWords(element.title, "title", miniHolder)
 
   // create a description div from element.description
-  createWords(element.description, "description", miniHolder)
+  // createWords(element.description, "description", miniHolder)
 
   //create instructions element from element.instruction
   // createWords(element.instruction, "instruction", miniHolder)
@@ -66,7 +66,7 @@ json.projects.forEach(function(element){
 
 
   // create a div from element.link
-  createMedia(element.link, "media", miniHolder)
+  createMedia(element.link, "gridMedia", miniHolder)
 
 
 

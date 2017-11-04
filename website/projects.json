@@ -5,7 +5,7 @@
 			"title": "Phasing Elements",
 			"description": "An interactive environment to explore elements moving through space in patterened cycles",
 			"instruction": "select an animation when you're ready to begin",
-			"link": "<iframe height='140%' scrolling='no' title='Everything We Are-Morphing Poem' src='https://codepen.io/Daniel_Silber-Baker/project/live/ZyyQOB/' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
+			"link": "<iframe height='120%' scrolling='no' title='Everything We Are-Morphing Poem' src='https://codepen.io/Daniel_Silber-Baker/project/live/ZyyQOB/' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
 			"documentation": ""
 
 		},
@@ -19,9 +19,9 @@
 		},
 		{
 			"title": "Transformative Constellations",
-			"description": "I have always wanted an interface to explore the relationships between us, our words, and the world. The interactive diagram is made using Cytoscape.js, which is a graph-theory (a.k.a. network) library written in JavaScript. The simple UI is constructed using CSS Grid Layout.",
+			"description": "Imagining an interface to explore the relationships between us, our words, and the world. The interactive diagram is made using Cytoscape.js, which is a graph-theory (a.k.a. network) library written in JavaScript. The simple UI is constructed using CSS Grid Layout.",
 			"instruction": "Each node can be dragged and rearranged, as can the constellation as a whole.",
-			"link": "<iframe height='475' scrolling='no' title='Interactive Constellation Diagram CSS Grid Layout' src='//codepen.io/Daniel_Silber-Baker/embed/eGOjZw/?height=495&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
+			"link": "<iframe height='100%' scrolling='no' title='Interactive Constellation Diagram CSS Grid Layout' src='//codepen.io/Daniel_Silber-Baker/embed/eGOjZw/?height=495&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
 			"documentation": ""
 
 		},
@@ -38,13 +38,13 @@
 			"title": "Transformative Language",
 			"description": "Velocity.js and Particles .js to create an interactive environment in honor of the goddess Octavia Butler.",
 			"instruction": "Hover and press on letters and particles to interact.",
-			"link": "<iframe height='100%' scrolling='no' title='thesis_transformativeLanguage_youChange' src='//codepen.io/Daniel_Silber-Baker/embed/wJVbpJ/?height=603&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/Daniel_Silber-Baker/pen/wJVbpJ/'>thesis_transformativeLanguage_youChange</a> by Daniel Silber-Baker (<a href='https://codepen.io/Daniel_Silber-Baker'>@Daniel_Silber-Baker</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe> ",
+			"link": "<iframe height='120%' scrolling='no' title='thesis_transformativeLanguage_youChange' src='//codepen.io/Daniel_Silber-Baker/embed/wJVbpJ/?height=603&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/Daniel_Silber-Baker/pen/wJVbpJ/'>thesis_transformativeLanguage_youChange</a> by Daniel Silber-Baker (<a href='https://codepen.io/Daniel_Silber-Baker'>@Daniel_Silber-Baker</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe> ",
 			"documentation": ""
 
 		},
 		{
 			"title": "Interactive Audre Lorde Reflection Activity",
-			"description": "Proof of concept for interactive activities that use vue.js to manage real time user input, and produce a manipulatable environment for users to engage with their own thoughts and lives as a site of reflection and transformation. In this instance the interactive canvas is produced using raphael.js.",
+			"description": "Proof of concept for interactive activities that use vue.js to manage real time user input, and produce a manipulatable environment for users to engage with their own thoughts and lives as a site of reflection and transformation. This canvas uses raphael.js.",
 			"instruction": "Type your responses to the prompt questions and then press the ‘re-create’ button to generate an interactive canvas.",
 			"link": "<iframe height='140%' scrolling='no' title='vueJS_RaphaelJS_transformation_of_silence' src='//codepen.io/Daniel_Silber-Baker/embed/oBJjGM/?height=716&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/Daniel_Silber-Baker/pen/oBJjGM/'>vueJS_RaphaelJS_transformation_of_silence</a> by Daniel Silber-Baker (<a href='https://codepen.io/Daniel_Silber-Baker'>@Daniel_Silber-Baker</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe> ",
 			"documentation": ""
