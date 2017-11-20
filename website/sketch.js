@@ -3,60 +3,116 @@ $.getJSON( "projects.json", function( json ) {
   // console.log(json.projects[1]);
 
 //function to turn each piece into an element on the dom
-json.projects.forEach(function(element){
+let things = []
+json.projects.forEach(function(element, index){
+
+  let objecMaker = {
+    "title": element.title,
+    "link": element.link,
+    "description": element.description,
+    "media": element.media,
+    "instruction": element.instruction,
+    "index": index
+
+  }
+
+  things.push(objecMaker)
+// console.log(things)
+
+
 	// console.log(element.title)
 
-  var miniHolder = document.createElement('div');
+})
+
+
+things.forEach(function(element, index){
+
+
+  /* Create the mini version */
+  let miniHolder = document.createElement('div');
+  // let miniHolder = $('<a href =#' + "holder"+ index + "></a>")
   miniHolder.className += "miniHolder"
+
   $('#simGrid').append(miniHolder)
 
-  // creat a title div from element.title
+  // creat a mini title div from element.title
   createWords(element.title, "miniTitle", miniHolder)
 
-  // create a description div from element.description
-  // createWords(element.description, "description", miniHolder)
-
-  //create instructions element from element.instruction
-  // createWords(element.instruction, "instruction", miniHolder)
-
+  //this title is an alink to the id of its large version
 
   // create a div from element.link
   createMedia(element.link, "miniMedia", miniHolder)
-	//create a div to hold each project
-	var holder = document.createElement('div');
-	holder.className += "holder"
-	$('#grid').append(holder)
+   // create a description div from element.description
+  // createWords(element.description, "miniDescription", miniHolder)
 
-	// creat a title div from element.title
-	createWords(element.title, "title", holder)
+  //create instructions element from element.instruction
+  // createWords(element.instruction, "miniInstruction", miniHolder)
 
-	// create a description div from element.description
-	createWords(element.description, "description", holder)
+  $(miniHolder).click(function(){
 
-	//create instructions element from element.instruction
-	createWords(element.instruction, "instruction", holder)
+    let stageGrabber = $('#stage')
+  let stageHolder = document.createElement('div');
+stageHolder.className += 'simulacrum'
+    console.log(things[index].title)
+    stageGrabber.empty()
+
+    stageGrabber.append(stageHolder)
+
+  createWords(things[index].title, "stageTitle", stageHolder)
+
+  createWords(things[index].description, "stageDescription", stageHolder)
+  createWords(things[index].instruction, "stageInstruction", stageHolder)
+  createMedia(things[index].link, "stageMedia", stageHolder)
+  
+
+    // setStage(index)
+    // console.log($(this))
 
 
+    // console.log($(this).index)
+    // console.log('working')
+    //create a larger version of itself and append to #stage
+    // make exact copy and then scale:deep full clone
+// $(this).clone().removeClass('miniHolder').addClass('simulacrum').appendTo('#stage')
 
-	// create a div from element.link
-	createMedia(element.link, "media", holder)
+// $('.simulacrum').velocity({
+// p: {scale: 1, margin: 0},
+// o:{easing: "easeInSine"}
+// })
+  
+  })
 
-//connect them here or in the create functions?
 
-//then an event listener that says dance on hover and goes to link on pressed.
-//is the target the div or the title? Try with title first
+  /* Create the big version of each */
+  //create a div to hold each project
+  var holder = document.createElement('div');
+  holder.className += "holder"
+  holder.id = "holder" + index
+  $('#grid').append(holder)
 
-// title is an a link element with its href to its root element (the element of which it is a shallow simulacra)
+  // creat a title div from element.title
+  createWords(element.title, "title", holder)
 
-//look up shiffmans syllabus for demo
+  // create a description div from element.description
+  createWords(element.description, "description", holder)
 
-//then each miniTitle element on hover {
-  //dance
-    // open up? get bigger?
-// }
+  //create instructions element from element.instruction
+  createWords(element.instruction, "instruction", holder)
 
+
+  // create a div from element.link
+  createMedia(element.link, "media", holder)
 
 })
+
+
+
+
+
+/* Events */
+
+
+// set stage
 
 
 /* True Simulacrum */
@@ -71,12 +127,6 @@ json.projects.forEach(function(element){
 
 
 /* Mutated Simulacrum */
-// console.log()
-
-// Option 2: iterate through json a second time and create variation of original thing
-// $.Velocity.hook($('.holder'), "borderColor", "white")
-
-// $('miniHolder').css("box-shadow", "0em 0em 0em #8DC0E7")
 
 $('.miniHolder').hover(
 // $('.miniTitle').hover(
@@ -84,7 +134,7 @@ $('.miniHolder').hover(
   //on mouse enter
   
   let elem = this
-  console.log(this)
+  // console.log(this)
   // console.log(elem.parent())
   // set the box shadow color of each of the minTitles
 
@@ -120,21 +170,21 @@ function () {
   )
 
 $('.miniHolder').velocity({
-p: {scale: .65,
-margin: "-=3em"
+p: {scale: .15,
+margin: "-=6em"
 },
 o:{easing: "easeInSine"}
 })
 
 
- $('.holder').velocity({p: {scale: .1},
+ $('.holder').velocity({p: {scale: 1},
 o:{easing: "easeInSine"}
 })
 //implement wayholder 
 //implement solution from audre lorde scroller
 	// make previous content fade out and new content fade in
 
-	console.log($('.holder'))
+	// console.log($('.holder'))
 
 
 var waypoints = $('.holder').waypoint({
@@ -163,7 +213,7 @@ skewX: [0, 45],
 $.Velocity.RegisterUI("dissappear", {
 defaultDuration: 100,
 calls: [
-[ { scale: 0,  opacity: 0},1, 
+[ { scale: 1,  opacity: 0},1, 
 {easing: "easeInSine", delay:0, sequenceQueue: false} ],
 ]
 });

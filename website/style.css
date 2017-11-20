@@ -14,14 +14,33 @@ color: rgba(141, 192, 231, 1);
 
 }
 
+#welcome{
+	height: 100vh;
+	width: 100wh;
+	border: 2px solid #FAFAFA;
+	position: relative;
+}
+
+#stage{
+position: absolute;
+left: 40%;
+top: 0;
+height: 100vh;
+// top: 10vh;
+width: 60%;
+// background-color: rgba( 23, 77,117,.5);
+// background-color: rgba(141, 192, 231, .3);
+background-color: rgba(68, 68, 68, .3);
+}
 #intro{
 position: relative;
-width: 80vw;
-margin: auto;
+width: 40vw;
+margin-left: 0;
+// margin: auto;
 /*color: rgba(  6, 52, 87,1) ;*/	
-font-size: 200%;
+font-size: 150%;
 text-transform: uppercase;
-padding: 5vw;
+padding: 2vw;
 }
 
 
@@ -32,15 +51,16 @@ margin-top:  3ch;
 #simGrid{
 position: relative;
 display: grid;
-grid-template-columns: repeat(3, 28vw);
-width: 80vw;
+grid-template-columns: repeat(3, 10vw);
+width: 40vw;
 margin:5vw;
-grid-gap: 1.5em;
+grid-gap: .5em;
 }
+
 
 .miniHolder{
 	height: 30vh;
-	margin: 2em;
+	margin: 1em;
 	background-color:  rgba( 23, 77,117,.4);
 	box-shadow: 0em 0em 0em  rgba( 23, 77,117,1);
 	// border: 0em solid rgba( 75,125,163,1);
@@ -57,28 +77,97 @@ height: 100%;
 margin-top: .5em;
 
 }
+
+// .miniDescription{
+// height: 100%;	
+// margin-top: .5em;
+
+// }
+
+// .miniInstruction{
+// height: 100%;	
+// margin-top: .5em;
+// }
+/* Stage Components */
+.simulacrum{
+		height: 100vh;
+		// margin-top: 15vh;
+	// margin: 1em;
+	position: relative;
+	// background-color:  rgba( 23, 77,117,.4);
+	box-shadow: 0em 0em 0em  rgba( 23, 77,117,1);
+	// border: 0em solid rgba( 75,125,163,1);
+	border: 0em solid rgba( 23, 77,117,.4);
+	display: grid;
+	grid-template-rows: 10vh 15vh 5vh 1fr;
+	//erfactor
+	grid-template-columns:25vw 25vw 25vw 25vw;  
+	grid-gap: 3vh;
+}
+
+.stageTitle{
+	font-size: 120%;
+	
+	width: 80%;
+	grid-column: 1/span 2;
+	grid-row: 2/span 1;
+
+}
+
+
+.stageDescription{
+font-size: 75%;
+font-weight: 300;	
+// margin-top: .5em;
+// position: absolute;
+// left: 50%;
+width: 80%;
+// margin-right: 3vw;
+grid-column: 3/span 2;
+grid-row: 2/span 1;
+}
+
+.stageMedia{
+height: 80%;	
+// margin-top: .5em;
+// position: absolute;
+// top: 25%;
+width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+grid-column: 1/span 4;
+grid-row: 4/4;
+
+}
+.stageInstruction{
+// height: 100%;	
+// margin-top: .5em;
+color: #fffff8;
+// width: 75%;
+text-shadow: 0em .05em #8DC0E7;
+font-size: 80%;
+// text-decoration: underline;
+grid-column: 2/3;
+grid-row: 3/3;
+
+}
 #grid {
 
 background-color: rgba( 23, 77,117,1);
-margin-top: 20vh;
+// margin-top: 20vh;
 }
 
 .holder{
+	// border: 2px solid yellow;
 position: relative;
 display: grid;
 height: 80vh;
 width: 80vw;
 // margin:5vw;
 padding: 9vh;
-grid-template-columns:
-[left-start] 30vw
-[middle-start] 35vw
-[right-start] 10vw;
+grid-template-columns: 30vw 35vw 10vw;
 
-grid-template-rows: 
-   [row1-start] 10vh
-    [row2-start] 10vh
-    [row3-start] 50vh;
+grid-template-rows: 10vh 10vh 50vh;
 opacity: 0;
 // scale: .1;
 // margin: 9vw;
@@ -93,8 +182,8 @@ box-shadow: 0em 0em 0em #fcfcfc;
 font-size: 140%;
 width: 85%;
 margin-left: 0;
-grid-column: left-start/span 1;
-grid-row: row1-start/span 1;
+grid-column: 1/span 1;
+grid-row: 1/span 1;
 // border: 2px solid #f4f4f4;
 /*color: #AA3939;*/
 color: rgba(141, 192, 231, 1);
@@ -104,8 +193,8 @@ color: rgba(141, 192, 231, 1);
 .description{
 // font-weight: 200;
 font-size: 90%;
-grid-column: middle-start/span 1;
-grid-row: row1-start/span 2;
+grid-column: 2/span 1;
+grid-row: 1/span 2;
 // color: #fcfcfc;
 color: rgba(141, 192, 231, 1);
 
@@ -122,8 +211,8 @@ line-height: 1.1em;
 
 .instruction{
 font-size:70%;
-grid-column: left-start/span 1;
-grid-row: row2-start/span 1;
+grid-column: 1/span 1;
+grid-row: 2/span 1;
 // border: 2px solid #f4f4f4;
 // background-color: #550000;
 color: rgba(141, 192, 231, 1);
@@ -155,8 +244,8 @@ padding: 1em;
 
 
 .media{
-grid-column: left-start/span 4;
-grid-row: row3-start/span 1;
+grid-column: 1/span 4;
+grid-row: 3/span 1;
 background-color: #fcfcfc;
 }
 

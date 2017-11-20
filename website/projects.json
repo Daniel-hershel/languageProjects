@@ -5,7 +5,7 @@
 			"title": "Phasing Elements",
 			"description": "An interactive environment to explore elements moving through space in patterened cycles.",
 			"instruction": "select an animation when you're ready to begin",
-			"link": "<iframe height='100%' scrolling='no' title='Everything We Are-Morphing Poem' src='https://codepen.io/Daniel_Silber-Baker/project/live/ZyyQOB/' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
+			"link": "<iframe height='100%' scrolling='no' title='phases - animating dom elements with vue.js and velocity.js' src='//codepen.io/Daniel_Silber-Baker/embed/WZmWoq/?height=636&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
 			"documentation": ""
 
 		},

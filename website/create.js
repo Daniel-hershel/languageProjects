@@ -25,6 +25,13 @@ newDiv.className += thingClass
 var content = $(thing).appendTo(newDiv)
 $holder.append(newDiv);
 
+}
 
 
+function setStage(index){
+console.log(json.projects[0]);
+  json.projects.forEach(function(element, index){
+      // console.log(element)
+
+    })
 }
