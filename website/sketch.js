@@ -17,16 +17,10 @@ json.projects.forEach(function(element, index){
   }
 
   things.push(objecMaker)
-// console.log(things)
-
-
-	// console.log(element.title)
-
 })
 
 
 things.forEach(function(element, index){
-
 
   /* Create the mini version */
   let miniHolder = document.createElement('div');
@@ -42,11 +36,6 @@ things.forEach(function(element, index){
 
   // create a div from element.link
   createMedia(element.link, "miniMedia", miniHolder)
-   // create a description div from element.description
-  // createWords(element.description, "miniDescription", miniHolder)
-
-  //create instructions element from element.instruction
-  // createWords(element.instruction, "miniInstruction", miniHolder)
 
   $(miniHolder).click(function(){
 
@@ -63,27 +52,13 @@ stageHolder.className += 'simulacrum'
   createWords(things[index].description, "stageDescription", stageHolder)
   createWords(things[index].instruction, "stageInstruction", stageHolder)
   createMedia(things[index].link, "stageMedia", stageHolder)
-  
 
-    // setStage(index)
-    // console.log($(this))
-
-
-    // console.log($(this).index)
-    // console.log('working')
-    //create a larger version of itself and append to #stage
-    // make exact copy and then scale:deep full clone
-// $(this).clone().removeClass('miniHolder').addClass('simulacrum').appendTo('#stage')
-
-// $('.simulacrum').velocity({
-// p: {scale: 1, margin: 0},
-// o:{easing: "easeInSine"}
-// })
   
   })
 
 
   /* Create the big version of each */
+
   //create a div to hold each project
   var holder = document.createElement('div');
   holder.className += "holder"
@@ -106,15 +81,6 @@ stageHolder.className += 'simulacrum'
 })
 
 
-
-
-
-/* Events */
-
-
-// set stage
-
-
 /* True Simulacrum */
 // make exact copy and then scale:deep full clone
 // $('.holder').clone().removeClass('holder').addClass('simulacrum').appendTo('#simGrid')
@@ -124,9 +90,6 @@ stageHolder.className += 'simulacrum'
 // o:{easing: "easeInSine"}
 // })
 
-
-
-/* Mutated Simulacrum */
 
 $('.miniHolder').hover(
 // $('.miniTitle').hover(
@@ -170,7 +133,7 @@ function () {
   )
 
 $('.miniHolder').velocity({
-p: {scale: .15,
+p: {scale: .35,
 margin: "-=6em"
 },
 o:{easing: "easeInSine"}

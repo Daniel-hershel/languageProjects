@@ -73,10 +73,10 @@
 			"documentation": ""
 		},
 			{
-			"title": "",
-			"description": "",
-			"instruction": "",
-			"link": " ",
+			"title": "Interactive particles and words",
+			"description": "Part of a series of experiments with interactive words and particles using two of the JS libraries I love most: <a href = \"https://github.com/VincentGarreau/particles.js/\" target=\"_blank\">ParticlesJS</a> and <a href = \"https://github.com/julianshapiro/velocity\"> VelocityJS.</a> ",
+			"instruction": "Hover over words and paricles",
+			"link": "<iframe height='100%' scrolling='no' title='Interactive Particles and Words' src='//codepen.io/Daniel_Silber-Baker/embed/jaYLLp/?height=507&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/Daniel_Silber-Baker/pen/jaYLLp/'></iframe> ",
 			"documentation": ""
 		},
 		{

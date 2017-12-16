@@ -4,9 +4,10 @@ function createWords (thing, thingClass, holder) {
 // create a new element
 var newDiv = document.createElement("div");
 //create a text node from the parameter passed to the function
-var newContent = document.createTextNode(thing);
+// var newContent = document.createTextNode(thing);
 // //add the text node to the newly created  element
-newDiv.appendChild(newContent);
+// newDiv.appendChild(newContent);
+$(newDiv).html(thing)
 //add class passed to function 
 newDiv.className += thingClass;
 //add an id
