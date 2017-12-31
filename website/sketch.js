@@ -89,32 +89,56 @@ stageHolder.className += 'simulacrum'
 // p: {scale: .5},
 // o:{easing: "easeInSine"}
 // })
+$('.miniHolder').velocity({
+p: {scale: .25,
+margin: "-=4em"
+},
+o:{easing: "easeInSine"}
+})
 
-
+// $('.title').velocity({
+// p: {
+//   fontSize: '+=2em',
+// // margin: "-=4em"
+// },
+// o:{easing: "easeInSine"}
+// })
 $('.miniHolder').hover(
 // $('.miniTitle').hover(
  function (){
   //on mouse enter
   
-  let elem = this
+  let elem = $(this)
+  let that = $(this).siblings()
+  console.log(elem)
+  console.log(that)
   // console.log(this)
   // console.log(elem.parent())
   // set the box shadow color of each of the minTitles
 
+that.velocity({
+  p: {
+    scale: .1, 
+    opacity:.1, 
+    margin: '-=4em'
+  }
+})
     $(this).velocity({
-  // $(this).parent().velocity({
     p:{
-      scale: '+=10%',
+      scale: .9,
       // transformOriginZ: '-=110%',
-      translateY: '-=1.5em',
-      boxShadowX: '+=1em',
-      boxShadowY: '+=1em',
-      boxShadowBlur: '+=1em',
+      // translateY: '-=1.5em',
+      width: '+=4em',
+      height: '+=4em',
+      padding: '-=2em',
+      // boxShadowX: '+=.1em',
+      // boxShadowY: '+=.1em',
+      // boxShadowBlur: '+=1em',
       boxShadowSpread: "+=1.5em",
-      borderTopWidth: "+=.5em",
-      borderLeftWidth: "+=.5em",
+      // borderTopWidth: "+=.5em",
+      // borderLeftWidth: "+=.5em",
       rotateX: -5,
-      skewY: -15,
+      // skewY: -15,
       // margin: "-=1.5em"
       // translateZ: 150
 
@@ -126,18 +150,14 @@ $('.miniHolder').hover(
 function () {
       // $(this).parent().velocity('reverse')
     $(this).velocity('reverse')
+    $(this).siblings().velocity('reverse')
 
 
   //on mouse exit
 }
   )
 
-$('.miniHolder').velocity({
-p: {scale: .35,
-margin: "-=6em"
-},
-o:{easing: "easeInSine"}
-})
+
 
 
  $('.holder').velocity({p: {scale: 1},
