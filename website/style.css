@@ -7,9 +7,9 @@ darkest { color: rgba(  6, 52, 87,1) }*/
 /*rgba(141, 192, 231, 1)*/
 
 body {
-// background-color: rgba(  6, 52, 87,1);
 background-color: rgba(49, 59, 74, 1);
 font-size: 3ch;
+/*font-size: 16px;*/
 font-family: "oswald";
 color: rgba(211, 246, 250, 1);
 
@@ -31,9 +31,7 @@ position: fixed;
 left: 40vw;
 top: 0;
 height: 100vh;
-// top: 10vh;
 width: 60%;
-// background-color: rgba(141, 192, 231, .3);
 background-color: rgba(68, 68, 68, .3);
 }
 #intro{
@@ -87,59 +85,62 @@ margin-top: 1.5em;
 .simulacrum{
 		height: 100vh;
 	position: relative;
-	// background-color:  rgba( 23, 77,117,.4);
 	box-shadow: 0em 0em 0em  rgba( 23, 77,117,1);
 	border: 0em solid rgba( 23, 77,117,.4);
 	display: grid;
-	grid-template-rows: 10vh 8vh 4vh 1fr;
-	grid-template-columns:15 15 15 15;  
-	grid-gap: 1vh;
+	grid-template-rows: 10vh 5vh 1fr;
+	grid-template-columns: 2vw 18vw 15vw 15vw 1fr;  
+	grid-gap: 1.5em;
+	margin-top: 5vh;
 }
 
 .stageTitle{
 	font-size: 120%;
-	width: 80%;
+	width: 90%;
     margin: auto;
-	grid-column: 1/span 2;
-	grid-row: 2/span 1;
+	grid-column: 2/span 1;
+	grid-row: 1/span 1;
+color: #DEECED;
+
 }
 
 
 .stageDescription{
-font-family: 'Roboto', sans-serif;
-font-size: 70%;
 width: 89%;
+font-weight: 300;
+line-height: 1.2em;
 margin-left: auto;
 margin-right: auto;
 grid-column: 3/span 2;
-grid-row: 2/span 2;
+grid-row: 1/span 1;
+color: #DEECED;
 }
 
 .stageMedia{
 height: 90%;	
-
 width: 90%;
 margin-left: 5%;
 margin-right: 5%;
-grid-column: 1/span 4;
-grid-row: 4/4;
+grid-column: 1/span 5;
+grid-row: 3/span 1;
 
 }
 .stageInstruction{
 color: #fffff8;
-width: 75%;
+width: 50%;
 font-weight: 300;	
-margin: auto;
+margin-left: 0;
 text-shadow: 0em .1em rgba( 23, 77,117,1);
 font-size: 75%;
-grid-column: 1/3;
-grid-row: 3/span 1;
+grid-column: 2/span 2;
+grid-row: 2/span 1;
+color: #DEECED;
+
 
 }
 #grid {
 
 background-color: rgba( 23, 77,117,1);
-// margin-top: 20vh;
 }
 
 .holder{
