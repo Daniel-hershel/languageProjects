@@ -1,0 +1,90 @@
+{
+	"projects": [
+
+{
+			"title": "Phasing Elements",
+			"description": "An interactive environment to explore elements moving through space in patterened cycles.",
+			"instruction": "select an animation when you're ready to begin",
+			"link": "<iframe height='100%' scrolling='no' title='phases - animating dom elements with vue.js and velocity.js' src='//codepen.io/Daniel_Silber-Baker/embed/WZmWoq/?height=636&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
+			"documentation": ""
+
+		},
+		{
+			"title": "WE ALL DESERVE A SAFE SPACE TO BECOME OURSELVES",
+			"description": "An experiment in programming language; expressive, demonstrative language. A fluid language that takes shape and makes meaning. This is a poem I wrote with the help of chroma.js for color and velocity.js for motion.",
+			"instruction": "Press the boxes to start poem",
+			"link": "<iframe height='100%' scrolling='no' title='Everything We Are-Morphing Poem' src='//codepen.io/Daniel_Silber-Baker/embed/oeGbWM/?height=300&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
+			"documentation": ""
+
+		},
+		{
+			"title": "Transformative Constellations",
+			"description": "Imagining an interface to explore the relationships between us, our words, and the world. The interactive diagram is made using Cytoscape.js, which is a graph-theory (a.k.a. network) library written in JavaScript. The simple UI is constructed using CSS Grid Layout.",
+			"instruction": "Each node can be dragged and rearranged, as can the constellation as a whole.",
+			"link": "<iframe height='100%' scrolling='no' title='Interactive Constellation Diagram CSS Grid Layout' src='//codepen.io/Daniel_Silber-Baker/embed/eGOjZw/?height=495&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
+			"documentation": ""
+
+		},
+		{
+			"title": "IMAGINING THE SHADOW CAST BY OUR WORDS",
+			"description": "Playing with movement and meaning. Radiating colors and their corresponding constellation of feeling. Using chroma.js and velocity.js to do most of the heavy lifting.",
+			"instruction": "Press buttons above wonderland to change color theme",
+			"link": "<iframe height='100%' scrolling='no' title='programming language wonderland' src='//codepen.io/Daniel_Silber-Baker/embed/jLJLqK/?height=464&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/Daniel_Silber-Baker/pen/jLJLqK/'>programming language wonderland</a> by Daniel Silber-Baker (<a href='https://codepen.io/Daniel_Silber-Baker'>@Daniel_Silber-Baker</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe> ",
+			"documentation": ""
+
+		},
+
+		{
+			"title": "Transformative Language",
+			"description": "Velocity.js and Particles.js to create an interactive environment in honor of the goddess Octavia Butler.",
+			"instruction": "Hover and press on letters and particles to interact.",
+			"link": "<iframe height='120%' scrolling='no' title='thesis_transformativeLanguage_youChange' src='//codepen.io/Daniel_Silber-Baker/embed/wJVbpJ/?height=603&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/Daniel_Silber-Baker/pen/wJVbpJ/'>thesis_transformativeLanguage_youChange</a> by Daniel Silber-Baker (<a href='https://codepen.io/Daniel_Silber-Baker'>@Daniel_Silber-Baker</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe> ",
+			"documentation": ""
+
+		},
+		{
+			"title": "Interactive Audre Lorde Reflection Activity",
+			"description": "Proof of concept for interactive activities that use vue.js to manage real time user input, and produce a manipulatable environment for users to engage with their own thoughts and lives as a site of reflection and transformation. This canvas uses raphael.js.",
+			"instruction": "Respond to the prompts, then press the ‘re-create’ button to generate an interactive canvas.",
+			"link": "<iframe height='100%' scrolling='no' title='vueJS_RaphaelJS_transformation_of_silence' src='//codepen.io/Daniel_Silber-Baker/embed/oBJjGM/?height=716&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/Daniel_Silber-Baker/pen/oBJjGM/'>vueJS_RaphaelJS_transformation_of_silence</a> by Daniel Silber-Baker (<a href='https://codepen.io/Daniel_Silber-Baker'>@Daniel_Silber-Baker</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe> ",
+			"documentation": ""
+
+		},
+		{
+			"title": "Animating Elements w/ Velocity JS 1.0",
+			"description": "",
+			"instruction": "",
+			"link": "<iframe height='100%' scrolling='no' title='phases - animating dom elements with velocity.js 1.0' src='//codepen.io/Daniel_Silber-Baker/embed/ZXPbmY/?height=506&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
+			"documentation": ""
+		},
+			{
+			"title": "The Transformation Of Silence Web App",
+			"description": "Vue.js makes it incredibly easy to create dynamic web interfaces. Firebase makes it incredibly easy to create a persistent, realtime backend. Using VueFire here to make a dynamic full stack poetry web app. Uses CSS-Grid for UI.  ",
+			"instruction": "Respond to prompts to create a new poem in database.",
+			"link": "<iframe height='100%' scrolling='no' title='vue and firebase transformation poetry webapp' src='//codepen.io/Daniel_Silber-Baker/embed/yzKaVe/?height=646&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
+			"documentation": ""
+		},
+
+		{
+			"title": "MLK Interactive Constellation Of Concern",
+			"description": "An interactive model of Martin Luther King Jr's concerns as he describes them in his 16 August 1967 speech: 'Where Do We Go from Here', Delivered at the 11th Annual SCLC Convention in Atlanta, Ga.",
+			"instruction": "click and drag to manipulate canvas",
+			"link": "<iframe height='100%' scrolling='no' title=' cytoscapeJS_constellations_of_concerns' src='//codepen.io/Daniel_Silber-Baker/embed/RKBMPP/?height=687&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
+			"documentation": ""
+		},
+			{
+			"title": "Interactive particles and words",
+			"description": "Part of a series of experiments with interactive words and particles using two of the JS libraries I love most: <a href = \"https://github.com/VincentGarreau/particles.js/\" target=\"_blank\">ParticlesJS</a> and <a href = \"https://github.com/julianshapiro/velocity\"> VelocityJS.</a> ",
+			"instruction": "Hover over words and paricles",
+			"link": "<iframe height='100%' scrolling='no' title='Interactive Particles and Words' src='//codepen.io/Daniel_Silber-Baker/embed/jaYLLp/?height=507&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/Daniel_Silber-Baker/pen/jaYLLp/'></iframe> ",
+			"documentation": ""
+		},
+		{
+			"title": "",
+			"description": "",
+			"instruction": "",
+			"link": " ",
+			"documentation": ""
+		}
+	]
+}
