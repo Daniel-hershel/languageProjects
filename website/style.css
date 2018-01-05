@@ -8,8 +8,8 @@ darkest { color: rgba(  6, 52, 87,1) }*/
 
 body {
 background-color: rgba(49, 59, 74, 1);
-font-size: 3ch;
-/*font-size: 16px;*/
+// font-size: 3ch;
+font-size: 16px;
 font-family: "oswald";
 color: rgba(211, 246, 250, 1);
 
@@ -83,19 +83,19 @@ margin-top: 1.5em;
 
 /* Stage Components */
 .simulacrum{
-		height: 100vh;
+		height: 90vh;
 	position: relative;
 	box-shadow: 0em 0em 0em  rgba( 23, 77,117,1);
 	border: 0em solid rgba( 23, 77,117,.4);
 	display: grid;
-	grid-template-rows: 10vh 5vh 1fr;
+	grid-template-rows: 9vh 5vh 1fr;
 	grid-template-columns: 2vw 18vw 15vw 15vw 1fr;  
-	grid-gap: 1.5em;
+	grid-gap: .5em;
 	margin-top: 5vh;
 }
 
 .stageTitle{
-	font-size: 120%;
+	font-size: 180%;
 	width: 90%;
     margin: auto;
 	grid-column: 2/span 1;
@@ -104,10 +104,10 @@ color: #DEECED;
 
 }
 
-
 .stageDescription{
 width: 89%;
 font-weight: 300;
+font-size: 120%;
 line-height: 1.2em;
 margin-left: auto;
 margin-right: auto;
@@ -117,6 +117,7 @@ color: #DEECED;
 }
 
 .stageMedia{
+	margin-top: 2em;
 height: 90%;	
 width: 90%;
 margin-left: 5%;
@@ -127,113 +128,17 @@ grid-row: 3/span 1;
 }
 .stageInstruction{
 color: #fffff8;
-width: 50%;
+// width: 50%;
 font-weight: 300;	
-margin-left: 0;
+// margin-left: 0;
 text-shadow: 0em .1em rgba( 23, 77,117,1);
-font-size: 75%;
-grid-column: 2/span 2;
-grid-row: 2/span 1;
-color: #DEECED;
-
-
-}
-#grid {
-
-background-color: rgba( 23, 77,117,1);
-}
-
-.holder{
-	// border: 2px solid yellow;
-position: relative;
-display: grid;
-height: 80vh;
-width: 80vw;
-// margin:5vw;
-padding: 9vh;
-grid-template-columns: 30vw 35vw 10vw;
-
-grid-template-rows: 10vh 10vh 50vh;
-opacity: 0;
-// scale: .1;
-// margin: 9vw;
-margin-bottom: 20vh;
-grid-gap: 1.5em;
-box-shadow: 0em 0em 0em #fcfcfc;
-
-// border: .2em solid #444;
-}
-
-.title {
-font-size: 140%;
-width: 85%;
-margin-left: 0;
-grid-column: 1/span 1;
-grid-row: 1/span 1;
-// border: 2px solid #f4f4f4;
-/*color: #AA3939;*/
-color: rgba(141, 192, 231, 1);
-// rgba(130,171,202,1)
-}
-
-.description{
-// font-weight: 200;
-font-size: 90%;
-grid-column: 2/span 1;
-grid-row: 1/span 2;
-// color: #fcfcfc;
-color: rgba(141, 192, 231, 1);
-
-// font-family: 'Work Sans', sans-serif;
-// color: rgba( 75,125,163,1);
-// color: rgba(  6, 52, 87,1);
-// letter-spacing: .1em;
-line-height: 1.1em;
-// background-color: rgba(130,171,202,.3);
-
-
-}
-
-
-.instruction{
-font-size:70%;
-grid-column: 1/span 1;
-grid-row: 2/span 1;
-// border: 2px solid #f4f4f4;
-// background-color: #550000;
-color: rgba(141, 192, 231, 1);
-// color: #FFFFF8;
-// background-color: rgba(248, 248, 165, .9);
-background-color: rgba(130,171,202,.3);
-font-weight: 200;
-text-align: center;
-letter-spacing: .2em;
-line-height: 1.1em;
-
-text-transform: uppercase;
-// height: 70%;
-  box-sizing: border-box;
-    // padding: 10px;
-padding: 1em;
-// margin: .5em;
-// text-shadow: 0em .1em #550000;
-// margin: .5ch;
-
-
-
-}
-
-.instruction * {
-
-	padding: 12.5em;
-}
-
-
-.media{
-grid-column: 1/span 4;
+font-size: 95%;
+grid-column: 2/span 3;
 grid-row: 3/span 1;
-background-color: #fcfcfc;
+color: #DEECED;
 }
+
+
 
 a {
   color: rgb(70, 139, 140);
