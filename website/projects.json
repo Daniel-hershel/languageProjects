@@ -11,7 +11,7 @@
 		},
 		{
 			"title": "WE ALL DESERVE A SAFE SPACE TO BECOME OURSELVES",
-			"description": "An experiment in programming an expressive, demonstrative language. A fluid language that takes shape and makes meaning. This is a poem I wrote and programmed with <a target = '_blank' href = 'http://gka.github.io/chroma.js/'>Chroma.js</a> for color and <a target = '_blank' href = 'http://velocityjs.org'>Velocity.js</a> for motion.",
+			"description": "An experiment in programming an expressive, demonstrative language. A fluid language that takes shape and makes meaning. This is a poem I wrote and programmed using <a target = '_blank' href = 'http://gka.github.io/chroma.js/'>Chroma.js</a> for color and <a target = '_blank' href = 'http://velocityjs.org'>Velocity.js</a> for motion.",
 			"instruction": "Press the boxes to start poem",
 			"link": "<iframe height='100%' scrolling='no' title='Everything We Are-Morphing Poem' src='//codepen.io/Daniel_Silber-Baker/embed/oeGbWM/?height=300&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
 			"documentation": ""
@@ -77,6 +77,20 @@
 			"description": "Part of a series of experiments with interactive words and particles using two of the JS libraries I love most: <a href = \"https://github.com/VincentGarreau/particles.js/\" target=\"_blank\">ParticlesJS</a> and <a href = \"https://github.com/julianshapiro/velocity\"> VelocityJS.</a> ",
 			"instruction": "Hover over words and paricles",
 			"link": "<iframe height='100%' scrolling='no' title='Interactive Particles and Words' src='//codepen.io/Daniel_Silber-Baker/embed/jaYLLp/?height=507&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/Daniel_Silber-Baker/pen/jaYLLp/'></iframe> ",
+			"documentation": ""
+		},
+		{
+			"title": "De-Tourned Refrigerator Magnet Poetry",
+			"description": "",
+			"instruction": "",
+			"link": " <iframe height='100%' scrolling='no' title='De-Tourned Refrigerator Magnet Poetry' src='//codepen.io/Daniel_Silber-Baker/embed/egMGyb/?height=555&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
+			"documentation": ""
+		},
+		{
+			"title": "Typography Poem",
+			"description": "",
+			"instruction": "",
+			"link": "<iframe height='100%' scrolling='no' title='slabtext_lining_js_typographyPoetry_thesis_2.0' src='//codepen.io/Daniel_Silber-Baker/embed/LxKPjX/?height=540&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
 			"documentation": ""
 		},
 		{

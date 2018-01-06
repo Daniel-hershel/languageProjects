@@ -8,7 +8,8 @@ darkest { color: rgba(  6, 52, 87,1) }*/
 
 body {
 background-color: rgba(49, 59, 74, 1);
-// font-size: 3ch;
+/*background-color: #fffff8;*/
+
 font-size: 16px;
 font-family: "oswald";
 color: rgba(211, 246, 250, 1);
@@ -23,7 +24,7 @@ grid-template-columns: 40vw;
 width: 40vw;
 // margin:1.5vw;
 margin-top: 9vh;
-grid-gap: 3em;
+grid-gap: 4em;
 }
 
 #stage{
@@ -31,8 +32,11 @@ position: fixed;
 left: 40vw;
 top: 0;
 height: 100vh;
-width: 60%;
+width: 60vw;
+
 background-color: rgba(68, 68, 68, .3);
+/*background-color: rgba(255, 255, 248, .9);*/
+
 }
 #intro{
 position: relative;
@@ -50,10 +54,10 @@ color: rgba(211, 246, 250, 1);
 .miniHolder{
 	height: 35vh;
 	margin-bottom: 3em;
-	// background-color:  rgba( 23, 77,117,.4);
-	background-color: rgba(49, 93, 127, .1);
-	// background-color: rgba(124, 21, 29, .7);
-	// background-color: rgba(248, 166, 172, .7);
+	background-color:  rgba( 23, 77,117,.4);
+	/*background-color: rgba(49, 93, 127, .1);*/
+	/*background-color: rgba(124, 21, 29, .1);*/
+	/*background-color: rgba(248, 166, 172, .7);*/
 
 	box-shadow: 0em 0em 0em  rgba( 23, 77,117,1);
 	border: 0em solid rgba( 75,125,163,1);
@@ -62,7 +66,7 @@ color: rgba(211, 246, 250, 1);
 
 .miniTitle{
 	font-size: 120%;
-	// color: rgba(245, 163, 173, .7);
+	padding: .5em;
 	color: rgba(211, 246, 250, 1);
 	// color: rgba(79, 0, 16,1);
 	text-transform: uppercase;
@@ -88,29 +92,26 @@ margin-top: 1.5em;
 	box-shadow: 0em 0em 0em  rgba( 23, 77,117,1);
 	border: 0em solid rgba( 23, 77,117,.4);
 	display: grid;
-	grid-template-rows: 9vh 5vh 1fr;
-	grid-template-columns: 2vw 18vw 15vw 15vw 1fr;  
+	grid-template-rows: 18vh 3vh 1fr;
+	grid-template-columns: 2vw 18vw 18vw 18vw 1fr;  
 	grid-gap: .5em;
 	margin-top: 5vh;
 }
 
 .stageTitle{
-	font-size: 180%;
-	width: 90%;
-    margin: auto;
-	grid-column: 2/span 1;
-	grid-row: 1/span 1;
-color: #DEECED;
-
+  font-size: 170%;
+  width: 85%;
+  margin: auto;
+  grid-column: 2/span 1;
+  grid-row: 1/span 1;
+  color: #DEECED;
 }
 
 .stageDescription{
 width: 89%;
 font-weight: 300;
-font-size: 120%;
+font-size: 110%;
 line-height: 1.2em;
-margin-left: auto;
-margin-right: auto;
 grid-column: 3/span 2;
 grid-row: 1/span 1;
 color: #DEECED;
@@ -128,13 +129,12 @@ grid-row: 3/span 1;
 }
 .stageInstruction{
 color: #fffff8;
-// width: 50%;
+width: 80%;
 font-weight: 300;	
-// margin-left: 0;
 text-shadow: 0em .1em rgba( 23, 77,117,1);
 font-size: 95%;
-grid-column: 2/span 3;
-grid-row: 3/span 1;
+grid-column: 3/span 2;
+grid-row: 2/span 1;
 color: #DEECED;
 }
 
