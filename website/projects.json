@@ -80,9 +80,9 @@
 			"documentation": ""
 		},
 		{
-			"title": "De-Tourned Refrigerator Magnet Poetry",
-			"description": "",
-			"instruction": "",
+			"title": "Refrigerator Magnet Poetry",
+			"description": "An update of an early project I did in grad school. On either side of the canvas are source materials which can be dragged on to the canvas to recreate a new poem.",
+			"instruction": "Enter and submit to title poem. The background color of canvas can be customized using RGB sliders",
 			"link": " <iframe height='100%' scrolling='no' title='De-Tourned Refrigerator Magnet Poetry' src='//codepen.io/Daniel_Silber-Baker/embed/egMGyb/?height=555&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
 			"documentation": ""
 		},
@@ -94,10 +94,10 @@
 			"documentation": ""
 		},
 		{
-			"title": "",
-			"description": "",
+			"title": "L-Systems Art",
+			"description": "An L-system or Lindenmayer system is a parallel rewriting system and a type of formal grammar. <a href = 'https://en.wikipedia.org/wiki/L-system'>Learn more about L-Systems here.</a>",
 			"instruction": "",
-			"link": " ",
+			"link": "<iframe height='1103' scrolling='no' title='programmingA-Z L-Systems' src='//codepen.io/Daniel_Silber-Baker/embed/gLQdrq/?height=1103&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
 			"documentation": ""
 		}
 	]

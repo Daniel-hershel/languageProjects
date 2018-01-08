@@ -3,15 +3,15 @@
 
 {
 			"title": "Phasing Elements",
-			"description": "An interactive environment to explore elements moving through space in patterened cycles.",
+			"description": "An interactive environment to explore elements moving through space in patterened cycles. Using <a  target = '_blank' href = 'https://vuejs.org'>Vue.js</a> to handle the internal methods and using <a target = '_blank' href = 'http://velocityjs.org'>Velocity.js</a> to animate the dom elements.",
 			"instruction": "select an animation when you're ready to begin",
-			"link": "<iframe height='100%' scrolling='no' title='phases - animating dom elements with vue.js and velocity.js' src='//codepen.io/Daniel_Silber-Baker/embed/WZmWoq/?height=636&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
+			"link": "<iframe height='100%' scrolling='no' title='phases - animating dom elements' src='//codepen.io/Daniel_Silber-Baker/embed/WZmWoq/?height=636&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
 			"documentation": ""
 
 		},
 		{
 			"title": "WE ALL DESERVE A SAFE SPACE TO BECOME OURSELVES",
-			"description": "An experiment in programming language; expressive, demonstrative language. A fluid language that takes shape and makes meaning. This is a poem I wrote with the help of chroma.js for color and velocity.js for motion.",
+			"description": "An experiment in programming an expressive, demonstrative language. A fluid language that takes shape and makes meaning. This is a poem I wrote and programmed using <a target = '_blank' href = 'http://gka.github.io/chroma.js/'>Chroma.js</a> for color and <a target = '_blank' href = 'http://velocityjs.org'>Velocity.js</a> for motion.",
 			"instruction": "Press the boxes to start poem",
 			"link": "<iframe height='100%' scrolling='no' title='Everything We Are-Morphing Poem' src='//codepen.io/Daniel_Silber-Baker/embed/oeGbWM/?height=300&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
 			"documentation": ""
@@ -19,7 +19,7 @@
 		},
 		{
 			"title": "Transformative Constellations",
-			"description": "Imagining an interface to explore the relationships between us, our words, and the world. The interactive diagram is made using Cytoscape.js, which is a graph-theory (a.k.a. network) library written in JavaScript. The simple UI is constructed using CSS Grid Layout.",
+			"description": "An interactive interface to explore mental models of the relationships between us, our words, and the world. The diagrams are created with <a href = 'http://js.cytoscape.org/' target = '_blank'>Cytoscape.js </a>. The simple UI is constructed using <a href = 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout' target = '_blank'>CSS Grid Layout.</a>",
 			"instruction": "Each node can be dragged and rearranged, as can the constellation as a whole.",
 			"link": "<iframe height='100%' scrolling='no' title='Interactive Constellation Diagram CSS Grid Layout' src='//codepen.io/Daniel_Silber-Baker/embed/eGOjZw/?height=495&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
 			"documentation": ""
@@ -28,7 +28,7 @@
 		{
 			"title": "IMAGINING THE SHADOW CAST BY OUR WORDS",
 			"description": "Playing with movement and meaning. Radiating colors and their corresponding constellation of feeling. Using chroma.js and velocity.js to do most of the heavy lifting.",
-			"instruction": "Press buttons above wonderland to change color theme",
+			"instruction": "Press buttons above wonderland to change color theme.",
 			"link": "<iframe height='100%' scrolling='no' title='programming language wonderland' src='//codepen.io/Daniel_Silber-Baker/embed/jLJLqK/?height=464&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/Daniel_Silber-Baker/pen/jLJLqK/'>programming language wonderland</a> by Daniel Silber-Baker (<a href='https://codepen.io/Daniel_Silber-Baker'>@Daniel_Silber-Baker</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe> ",
 			"documentation": ""
 
@@ -77,6 +77,20 @@
 			"description": "Part of a series of experiments with interactive words and particles using two of the JS libraries I love most: <a href = \"https://github.com/VincentGarreau/particles.js/\" target=\"_blank\">ParticlesJS</a> and <a href = \"https://github.com/julianshapiro/velocity\"> VelocityJS.</a> ",
 			"instruction": "Hover over words and paricles",
 			"link": "<iframe height='100%' scrolling='no' title='Interactive Particles and Words' src='//codepen.io/Daniel_Silber-Baker/embed/jaYLLp/?height=507&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/Daniel_Silber-Baker/pen/jaYLLp/'></iframe> ",
+			"documentation": ""
+		},
+		{
+			"title": "De-Tourned Refrigerator Magnet Poetry",
+			"description": "",
+			"instruction": "",
+			"link": " <iframe height='100%' scrolling='no' title='De-Tourned Refrigerator Magnet Poetry' src='//codepen.io/Daniel_Silber-Baker/embed/egMGyb/?height=555&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
+			"documentation": ""
+		},
+		{
+			"title": "Typography Poem",
+			"description": "",
+			"instruction": "",
+			"link": "<iframe height='100%' scrolling='no' title='slabtext_lining_js_typographyPoetry_thesis_2.0' src='//codepen.io/Daniel_Silber-Baker/embed/LxKPjX/?height=540&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
 			"documentation": ""
 		},
 		{

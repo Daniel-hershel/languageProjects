@@ -87,15 +87,15 @@ margin-top: 1.5em;
 
 /* Stage Components */
 .simulacrum{
-		height: 90vh;
+		height: 98vh;
 	position: relative;
 	box-shadow: 0em 0em 0em  rgba( 23, 77,117,1);
-	border: 0em solid rgba( 23, 77,117,.4);
+	border: 0vh solid rgba( 23, 77,117,.4);
 	display: grid;
-	grid-template-rows: 18vh 3vh 1fr;
+	grid-template-rows: 16vh 3vh 1fr;
 	grid-template-columns: 2vw 18vw 18vw 18vw 1fr;  
 	grid-gap: .5em;
-	margin-top: 5vh;
+	/*margin-top: 5vh;*/
 }
 
 .stageTitle{
@@ -115,6 +115,7 @@ line-height: 1.2em;
 grid-column: 3/span 2;
 grid-row: 1/span 1;
 color: #DEECED;
+padding: 1em;
 }
 
 .stageMedia{
@@ -125,6 +126,7 @@ margin-left: 5%;
 margin-right: 5%;
 grid-column: 1/span 5;
 grid-row: 3/span 1;
+border: 1px solid #fffff8;;
 
 }
 .stageInstruction{
