@@ -94,10 +94,24 @@
 			"documentation": ""
 		},
 		{
-			"title": "L-Systems Art",
+			"title": "Create L-Systems Art",
 			"description": "An L-system or Lindenmayer system is a parallel rewriting system and a type of formal grammar. <a href = 'https://en.wikipedia.org/wiki/L-system'>Learn more about L-Systems here.</a>",
 			"instruction": "",
-			"link": "<iframe height='1103' scrolling='no' title='programmingA-Z L-Systems' src='//codepen.io/Daniel_Silber-Baker/embed/gLQdrq/?height=1103&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
+			"link": "<iframe height='100%' scrolling='no' title='Create L-System Art' src='//codepen.io/Daniel_Silber-Baker/embed/GyygGe/?height=713&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
+			"documentation": ""
+		},
+		{
+			"title": "An L-Systems Tryptic",
+			"description": "An L-system or Lindenmayer system is a parallel rewriting system and a type of formal grammar. <a href = 'https://en.wikipedia.org/wiki/L-system'>Learn more about L-Systems here.</a>",
+			"instruction": "",
+			"link": "<iframe height='100%' scrolling='no' title='An L-System Tryptic' src='//codepen.io/Daniel_Silber-Baker/embed/BJJyVX/?height=664&theme-id=26830&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>",
+			"documentation": ""
+		},
+		{
+			"title": "",
+			"description": "",
+			"instruction": "",
+			"link": "",
 			"documentation": ""
 		}
 	]
